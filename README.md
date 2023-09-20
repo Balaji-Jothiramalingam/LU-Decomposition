@@ -28,7 +28,7 @@ a=np.array(eval(input()))
 p,l,u=lu(a)
 print(l)
 print(u)
-
+````
 (ii) To find the LU Decomposition of a matrix
 ```
 /*
@@ -36,7 +36,7 @@ Program to find the LU Decomposition of a matrix.
 Developed by: BalajiJ
 RegisterNumber:212221243001
 */
-```
+
 import numpy as np
 from scipy.linalg import lu_factor, lu_solve
 A=eval(input())
