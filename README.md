@@ -48,9 +48,7 @@ print(x)
 ````
 ## Output:
 
-![image](https://github.com/Balaji-Jothiramalingam/LU-Decomposition/assets/114234865/017ad19d-6e1e-46ee-86cc-3af5caf52d19)
-
-![image](https://github.com/Balaji-Jothiramalingam/LU-Decomposition/assets/114234865/ad40bbe0-0552-4f7e-bfce-95e3d81989e1)
+![m1](https://github.com/Balaji-Jothiramalingam/LU-Decomposition/assets/114234865/ec4bb25d-36fe-4a4d-bba9-33ce3b5ea95d)
 
 
 
