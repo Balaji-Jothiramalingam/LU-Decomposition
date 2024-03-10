@@ -38,19 +38,21 @@ RegisterNumber:212221243001
 */
 
 import numpy as np
-from scipy.linalg import lu_factor, lu_solve
-A=eval(input())
-b=eval(input())
-lu,piv=lu_factor(A)
-x=lu_solve((lu,piv),b)
-print(x)
+from scipy.linalg import lu_factor,lu_solve
+A=np.array(eval(input()))
+B=eval(input())
+res=lu_factor(A)
+solution=lu_solve(res,B)
+print(solution)
+
 
 ````
 ## Output:
 
-![image](https://github.com/Balaji-Jothiramalingam/LU-Decomposition/assets/114234865/4199d341-3926-4dd0-8479-729e8ef70964)
+![b4](https://github.com/Balaji-Jothiramalingam/LU-Decomposition/assets/114234865/6723a80b-be78-43d8-82ac-f804f777e5f6)
 
-![image](https://github.com/Balaji-Jothiramalingam/LU-Decomposition/assets/114234865/630e0328-ca90-49d4-8a27-0cdd90969c2a)
+![b5](https://github.com/Balaji-Jothiramalingam/LU-Decomposition/assets/114234865/5f53a641-5310-4f39-8709-4460e9bec003)
+
 
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
